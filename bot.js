@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
-const prefix = "h."
+const prefix = "h." || "H."
+
 const client = new Discord.Client();
 const http = require('http');
 const express = require('express');
@@ -41,7 +42,7 @@ client.on('message', async message => {
   if (message.content.startsWith(prefix) && message.channel.type !== "text")return mesage.reply("Please use my commands in a server");												 
   if(!message.content.startsWith(prefix))return; 
   let messageArray = message.content.split(" ");
-  let cmd = messageArray[0];
+  let cmd = messageArray[0].toUpperCase();
   let args = messageArray.slice(1);
   let commandfile = client.commands.get(cmd.slice(prefix.length));
   if(commandfile) commandfile.run(client,message,args); 
