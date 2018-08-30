@@ -26,7 +26,9 @@ fs.readdir("./commands/", (err, files) => {
 
 
 
-client.on('ready', (), message.author.send("Bot restarted");
+client.on('ready', () => {
+	 message.author.send("Bot restarted");
+}
 
 client.on('warn', console.warn);
 client.on('error', console.error);
