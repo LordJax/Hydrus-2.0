@@ -19,6 +19,9 @@ let parseTime = function(msec) {
 
 module.exports.run = async (client,message,args) => {
 
+    
+    var Official = message.guild.members.find("id", "314165916264955904");
+    if (message.member !== Official)return errors.noPerms(message, "BOT_OWNER")
 
 let randomRGB = function(){
     var num = Math.round(0xffffff * Math.random());
@@ -65,8 +68,7 @@ let randomHex = function(){
                                             
 
 
-    var Official = message.guild.members.find("id", "314165916264955904");
-    if (message.member !== Official)return errors.noPerms(message, "BOT_OWNER")
+
 
 
 
