@@ -6,7 +6,7 @@ const http = require('http');
 const express = require('express');
 const records = require('./utils/records');
 const errors = require('./error.js');
-const TOKEN = proccess.env.TOKEN;
+const TOKEN = process.env.TOKEN;
 
 
 client.commands = new Discord.Collection();
