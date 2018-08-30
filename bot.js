@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
-const prefix = "h." || "H."
+const prefix = "h."
 
 const client = new Discord.Client();
 const http = require('http');
