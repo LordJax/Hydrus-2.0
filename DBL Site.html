@@ -1,0 +1,1140 @@
+A multi purpose bot that was made in discord.js. This bot took me about 3-4 months to make so please enjoy it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<div class="content">
+                    
+                          <style>
+  body {
+  	color: #7a7a7a;
+    background-image: url("https://cdn.discordapp.com/attachments/433465388148326420/437109808751968266/blue-gradient-wallpaper.jpg") !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
+  }
+  .btn-orange {
+  	background: #c0392b;
+  }
+  #createdby {
+    color: #FFFFFF !important;
+}
+  
+  .longdescription .content {
+    transition-duration: 0.5s;
+    border-radius: 25px !important;
+    border-style: solid !important;
+    border-width: 5px !important;
+    border-color: #e66767 !important;
+    background-color: #bdc3c7
+}
+
+.longdescription .content:hover {
+    transition-duration: 0.5s;
+    border-radius: 25px !important;
+    border-style: solid !important;
+    border-width: 5px !important;
+    border-color: #ea8685 !important;
+}
+  
+  .blog_card:after {
+    content: "Click to view this server...";
+}
+  .btn-blue {
+  	background: #c0392b;
+  }
+  #delete {
+  	background-color: #ffffff;
+  }
+  .botpagebutton {
+  	background: #7a7a7a;
+  	color: #ffffff;
+  }
+  .atag {
+  	background: #7a7a7a;
+  	color: #ffffff;
+  }
+  code {
+  font-weight: bold;
+  color: #c0392b;
+  border-radius: 5px;
+  }
+  .owners a {
+  	color: #000000;
+  }
+  .bot-description {
+  	color: #ffffff;
+  }
+  .bot-name {
+  	color: #ffffff;
+  }
+  #bot-details-page #bot-stats p {
+  	color: #ffffff;
+  }
+  .btn-like {
+  	color: #ffffff;
+  }
+  .titleandvote {
+  	color: #ffffff
+  }
+  .atag:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+}
+
+#websitelink{
+    background-color: #65656557!important;
+    color: #3498db !important;
+}
+
+#websitelink:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+#support {
+    background-color: #65656557!important;
+    color: #3498db !important;
+}
+
+#support:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+#github {
+    background-color: #65656557!important;
+    color: #3498db !important;
+}
+
+#github:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+.botpagebutton {
+    background-color: #65656557!important;
+    color: #3498db !important;
+}
+
+.botpagebutton:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+#report {
+    background-color: #65656557!important;
+    color: #3498db !important;
+}
+
+#report:hover {
+    background-color: #65656557!important;
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+.atag:before {
+    background: #2980b9;
+}
+
+.atag {
+    background-color: #65656557!important;
+    color: #3498db!important;
+}
+
+.atag:after {
+    border-left-color: #2980b9;
+}
+
+.atag:hover:after {
+    border-left-color: #2980b9;
+}
+
+span {
+  color: #34495e;
+}
+
+span:hover {
+  color: #2c3e50;
+}
+
+.btn-like {
+    background-color: white;
+    color: #e74c3c;
+}
+
+.btn-like:hover {
+    background-color: white;
+    color: #c0392b;
+}
+#bot-details-page .btn-like:after {
+    padding-right: 5px;
+    content: " Upvotes";
+    white-space: pre;
+}
+</style>
+<script>
+var _0x4b4a = [ // obfuscated b1nzy code cuzwhynot :^)
+    'a2V5ZG93bg==',
+    'bGVuZ3Ro',
+    'Ym9keQ==',
+    'c3R5bGU=',
+    'YmFja2dyb3VuZEltYWdl',
+    'dXJsKCdodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvNzg4ODg3NTE1MTk3Mzc4NTYwL1VsRVVPOVczXzQwMHg0MDAuanBnJyk=',
+    'Z2V0RWxlbWVudHNCeUNsYXNzTmFtZQ==',
+    'c2VydmVycyBidG4gYnRuLW9yYW5nZSBidG4tMng=',
+    'c2hhcmRzIGJ0biBidG4tYmx1ZSBidG4tMng=',
+    'Z2V0RWxlbWVudEJ5SWQ=',
+    'cG9pbnRz',
+    'aW5uZXJIVE1M',
+    'cmF0ZWxpbWl0LnB5',
+    'Ym90LW5hbWU=',
+    'YjFuWnk=',
+    'dGl0bGU=',
+    'YjFuenkgfCBEaXNjb3JkIEJvdHM=',
+    'IHNlcnZlcnM=',
+    'Q2hlYXRzIEFjdGl2YXRlZA==',
+    'Q2hlYXRzIGFjdGl2YXRlZA==',
+    'bG9n',
+    'YjFuenkg8J+RgA==',
+    'YWRkRXZlbnRMaXN0ZW5lcg=='
+];
+(function (_0x5087f3, _0x4396ac) {
+    var _0x1d04aa = function (_0x561f23) {
+        while (--_0x561f23) {
+            _0x5087f3['push'](_0x5087f3['shift']());
+        }
+    };
+    _0x1d04aa(++_0x4396ac);
+}(_0x4b4a, 0xcc));
+var _0x5a27 = function (_0x10350d, _0x18a774) {
+    _0x10350d = _0x10350d - 0x0;
+    var _0x36872a = _0x4b4a[_0x10350d];
+    if (_0x5a27['lKvvch'] === undefined) {
+        (function () {
+            var _0x41c275 = function () {
+                var _0x2b54f2;
+                try {
+                    _0x2b54f2 = Function('return\x20(function()\x20' + '{}.constructor(\x22return\x20this\x22)(\x20)' + ');')();
+                } catch (_0x3759f7) {
+                    _0x2b54f2 = window;
+                }
+                return _0x2b54f2;
+            };
+            var _0x2dba62 = _0x41c275();
+            var _0x1dc305 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+            _0x2dba62['atob'] || (_0x2dba62['atob'] = function (_0x216f2a) {
+                var _0x350de2 = String(_0x216f2a)['replace'](/=+$/, '');
+                for (var _0x3555ba = 0x0, _0x13093c, _0x3a30e4, _0xbe22 = 0x0, _0x4656eb = ''; _0x3a30e4 = _0x350de2['charAt'](_0xbe22++); ~_0x3a30e4 && (_0x13093c = _0x3555ba % 0x4 ? _0x13093c * 0x40 + _0x3a30e4 : _0x3a30e4, _0x3555ba++ % 0x4) ? _0x4656eb += String['fromCharCode'](0xff & _0x13093c >> (-0x2 * _0x3555ba & 0x6)) : 0x0) {
+                    _0x3a30e4 = _0x1dc305['indexOf'](_0x3a30e4);
+                }
+                return _0x4656eb;
+            });
+        }());
+        _0x5a27['AiYvhD'] = function (_0x3fe9c4) {
+            var _0x3288a5 = atob(_0x3fe9c4);
+            var _0x2f95b9 = [];
+            for (var _0x2469a4 = 0x0, _0x1ab069 = _0x3288a5['length']; _0x2469a4 < _0x1ab069; _0x2469a4++) {
+                _0x2f95b9 += '%' + ('00' + _0x3288a5['charCodeAt'](_0x2469a4)['toString'](0x10))['slice'](-0x2);
+            }
+            return decodeURIComponent(_0x2f95b9);
+        };
+        _0x5a27['mdibLk'] = {};
+        _0x5a27['lKvvch'] = !![];
+    }
+    var _0x23ed7d = _0x5a27['mdibLk'][_0x10350d];
+    if (_0x23ed7d === undefined) {
+        _0x36872a = _0x5a27['AiYvhD'](_0x36872a);
+        _0x5a27['mdibLk'][_0x10350d] = _0x36872a;
+    } else {
+        _0x36872a = _0x23ed7d;
+    }
+    return _0x36872a;
+};
+console[_0x5a27('0x0')](_0x5a27('0x1'));
+var allowedKeys = {
+    66: 'b',
+    49: '1',
+    78: 'n',
+    90: 'z',
+    89: 'y'
+};
+var konamiCode = [
+    'b',
+    '1',
+    'n',
+    'z',
+    'y'
+];
+var konamiCodePosition = 0x0;
+document[_0x5a27('0x2')](_0x5a27('0x3'), function (_0x57f38d) {
+    var _0x5b672f = allowedKeys[_0x57f38d['keyCode']];
+    var _0x165ad6 = konamiCode[konamiCodePosition];
+    if (_0x5b672f == _0x165ad6) {
+        console[_0x5a27('0x0')](_0x5b672f);
+        konamiCodePosition++;
+        if (konamiCodePosition == konamiCode[_0x5a27('0x4')]) {
+            activateCheats();
+            konamiCodePosition = 0x0;
+        }
+    } else {
+        konamiCodePosition = 0x0;
+    }
+});
+function activateCheats() {
+    document[_0x5a27('0x5')][_0x5a27('0x6')][_0x5a27('0x7')] = _0x5a27('0x8');
+    var _0x5a229a = document[_0x5a27('0x9')](_0x5a27('0xa'))[0x0];
+    var _0x41408c = document['getElementsByClassName'](_0x5a27('0xb'))[0x0];
+    var _0x5c29f3 = document[_0x5a27('0xc')](_0x5a27('0xd'));
+    document['getElementById']('libclick')[_0x5a27('0xe')] = _0x5a27('0xf');
+    document['getElementsByClassName'](_0x5a27('0x10'))[0x0][_0x5a27('0xe')] = _0x5a27('0x11');
+    document[_0x5a27('0x12')] = _0x5a27('0x13');
+    guild = 0x0;
+    shards = 0x0;
+    setInterval(function () {
+        guild = guild + 0x1f4;
+        shards = shards + 0x1;
+        points = parseInt(_0x5c29f3[_0x5a27('0xe')]) + 0x32;
+        _0x5a229a[_0x5a27('0xe')] = guild + _0x5a27('0x14');
+        _0x41408c[_0x5a27('0xe')] = shards + '\x20shards';
+        _0x5c29f3[_0x5a27('0xe')] = points;
+    }, 0x32);
+    alert(_0x5a27('0x15'));
+    console['log'](_0x5a27('0x16'));
+}
+</script>
+<h1>Hydrus</h1>
+<p>Hydrus is a great multi functional Discord Bot with plenty of fun, moderation and utility commands. Psst, we now have a card game system!</p>
+<p><s></s></p>
+<h3>Commands</h3>
+<p>(Use h.help for an up-to-date version)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Command</th>
+<th style="text-align:center">Category</th>
+<th style="text-align:left">Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">8ball</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Ask 8ball a question </td>
+</tr>
+<tr>
+<td style="text-align:center">tag</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get users with the same discriminator</td>
+</tr>
+<tr>
+<td style="text-align:center">urban</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Search urban dictionary</td>
+</tr>
+<tr>
+<td style="text-align:center">keygen</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Generate random numbers and letters</td>
+</tr>
+<tr>
+<td style="text-align:center">lmgtfy</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Let me google that for you :^)</td>
+</tr>
+<tr>
+<td style="text-align:center">flip</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Flip a coin</td>
+</tr>
+<tr>
+<td style="text-align:center">info</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get the bots info</td>
+</tr>
+<tr>
+<td style="text-align:center">cookie</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Give someone a cookie OwO</td>
+</tr>
+<tr>
+<td style="text-align:center">crypto</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get cryptocurrency information</td>
+</tr>
+<tr>
+<td style="text-align:center">discriminfo</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get the server stat discrimination info</td>
+</tr>
+<tr>
+<td style="text-align:center">botinfo</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get the bot/other bots info</td>
+</tr>
+<tr>
+<td style="text-align:center">vote</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Vote OwO</td>
+</tr>
+<tr>
+<td style="text-align:center">qr</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Generate a QR Code</td>
+</tr>
+<tr>
+<td style="text-align:center">help</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Help!</td>
+</tr>
+<tr>
+<td style="text-align:center">setlang</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Set the bots language!</td>
+</tr>
+<tr>
+<td style="text-align:center">channelinfo</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get the info about a channel</td>
+</tr>
+<tr>
+<td style="text-align:center">whois</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get user information from ID/Finding users from other servers who cant be found normally.</td>
+</tr>
+<tr>
+<td style="text-align:center">coffee</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get a coffee pic</td>
+</tr>
+<tr>
+<td style="text-align:center">serverinfo</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get the servers info</td>
+</tr>
+<tr>
+<td style="text-align:center">userinfo</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get a users info</td>
+</tr>
+<tr>
+<td style="text-align:center">avatar</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Get a users avatar</td>
+</tr>
+<tr>
+<td style="text-align:center">permissions</td>
+<td style="text-align:center">General</td>
+<td style="text-align:left">Check the permissions of a user in a channel.</td>
+</tr>
+<tr>
+<td style="text-align:center">upload</td>
+<td style="text-align:center">Donator</td>
+<td style="text-align:left">Upload a image to store.</td>
+</tr>
+<tr>
+<td style="text-align:center">redeem</td>
+<td style="text-align:center">Donator</td>
+<td style="text-align:left">Redeem your token</td>
+</tr>
+<tr>
+<td style="text-align:center">trapcard</td>
+<td style="text-align:center">Donator</td>
+<td style="text-align:left">Trap a user</td>
+</tr>
+<tr>
+<td style="text-align:center">donate</td>
+<td style="text-align:center">Donator</td>
+<td style="text-align:left">Donate!</td>
+</tr>
+<tr>
+<td style="text-align:center">dehoist</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Dehoist users with non ascii usernames</td>
+</tr>
+<tr>
+<td style="text-align:center">latency</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Get the bots latency</td>
+</tr>
+<tr>
+<td style="text-align:center">poll</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Start a poll</td>
+</tr>
+<tr>
+<td style="text-align:center">unban</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Unban a user</td>
+</tr>
+<tr>
+<td style="text-align:center">unmute</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Unmute a user</td>
+</tr>
+<tr>
+<td style="text-align:center">kick</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Kick a user</td>
+</tr>
+<tr>
+<td style="text-align:center">rename</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Rename a user</td>
+</tr>
+<tr>
+<td style="text-align:center">ban</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Ban someone</td>
+</tr>
+<tr>
+<td style="text-align:center">mute</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Mute someone</td>
+</tr>
+<tr>
+<td style="text-align:center">massban</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Massban multiple user ID's from your server</td>
+</tr>
+<tr>
+<td style="text-align:center">snipe</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Snipe the last deleted message from the channel</td>
+</tr>
+<tr>
+<td style="text-align:center">purge</td>
+<td style="text-align:center">Moderation</td>
+<td style="text-align:left">Purge messages in a channel</td>
+</tr>
+<tr>
+<td style="text-align:center">card</td>
+<td style="text-align:center">Roleplay</td>
+<td style="text-align:left">A Loli Card Roleplaying Game owo</td>
+</tr>
+<tr>
+<td style="text-align:center">imgwelcome</td>
+<td style="text-align:center">IMGWelcome</td>
+<td style="text-align:left">IMGWelcoming</td>
+</tr>
+<tr>
+<td style="text-align:center">profile</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Get a users profile or yours</td>
+</tr>
+<tr>
+<td style="text-align:center">setdesc</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Set your profile description</td>
+</tr>
+<tr>
+<td style="text-align:center">top</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Show the top users</td>
+</tr>
+<tr>
+<td style="text-align:center">register</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Register a bank account</td>
+</tr>
+<tr>
+<td style="text-align:center">coinflip</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Coinflip $$</td>
+</tr>
+<tr>
+<td style="text-align:center">rep</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Rep a user</td>
+</tr>
+<tr>
+<td style="text-align:center">transfer</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Transfer a user $</td>
+</tr>
+<tr>
+<td style="text-align:center">blackjack</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Play blackjack</td>
+</tr>
+<tr>
+<td style="text-align:center">daily</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Get your daily bonus</td>
+</tr>
+<tr>
+<td style="text-align:center">bank</td>
+<td style="text-align:center">Economy</td>
+<td style="text-align:left">Show the total bank value</td>
+</tr>
+<tr>
+<td style="text-align:center">food</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random food recipe</td>
+</tr>
+<tr>
+<td style="text-align:center">md5</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Convert to md5</td>
+</tr>
+<tr>
+<td style="text-align:center">owoify</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">OwOify text</td>
+</tr>
+<tr>
+<td style="text-align:center">whowouldwin</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Who would win owO</td>
+</tr>
+<tr>
+<td style="text-align:center">dedragonic</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Dedragonify text</td>
+</tr>
+<tr>
+<td style="text-align:center">dragonic</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Dragonify text</td>
+</tr>
+<tr>
+<td style="text-align:center">butts</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">butts</td>
+</tr>
+<tr>
+<td style="text-align:center">tweet</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Tweet as someone</td>
+</tr>
+<tr>
+<td style="text-align:center">nichijou</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Nichijou gif generation</td>
+</tr>
+<tr>
+<td style="text-align:center">toxicity</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get toxicity levels of text</td>
+</tr>
+<tr>
+<td style="text-align:center">shitpost</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random shitpost</td>
+</tr>
+<tr>
+<td style="text-align:center">deepfry</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Deepfry a image</td>
+</tr>
+<tr>
+<td style="text-align:center">weebify</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Weebify a image <strong>notices bulge</strong> OwO <em>Whats this</em></td>
+</tr>
+<tr>
+<td style="text-align:center">changemymind</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Change my mind generation</td>
+</tr>
+<tr>
+<td style="text-align:center">meme</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Meme gen</td>
+</tr>
+<tr>
+<td style="text-align:center">b64</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">base64 converter</td>
+</tr>
+<tr>
+<td style="text-align:center">isnowillegal</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">make stuff illegal</td>
+</tr>
+<tr>
+<td style="text-align:center">awooify</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">AWOOOOOOIfy someone</td>
+</tr>
+<tr>
+<td style="text-align:center">feed</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Feed a user</td>
+</tr>
+<tr>
+<td style="text-align:center">lovecalculator</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Love calculator &lt;3</td>
+</tr>
+<tr>
+<td style="text-align:center">captcha</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Captcha Image Gen</td>
+</tr>
+<tr>
+<td style="text-align:center">boom</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Boom reactions</td>
+</tr>
+<tr>
+<td style="text-align:center">bitconnect</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Bitconnect meme</td>
+</tr>
+<tr>
+<td style="text-align:center">duck</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random duck</td>
+</tr>
+<tr>
+<td style="text-align:center">iphonex</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Image in an iphonex</td>
+</tr>
+<tr>
+<td style="text-align:center">ship</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Ship users OWO</td>
+</tr>
+<tr>
+<td style="text-align:center">gif</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Search giphy</td>
+</tr>
+<tr>
+<td style="text-align:center">joke</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a joke</td>
+</tr>
+<tr>
+<td style="text-align:center">jpeg</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Needs More JPEG</td>
+</tr>
+<tr>
+<td style="text-align:center">lizard</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random lizard pic</td>
+</tr>
+<tr>
+<td style="text-align:center">cat</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random cat</td>
+</tr>
+<tr>
+<td style="text-align:center">kannagen</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Kanna generation</td>
+</tr>
+<tr>
+<td style="text-align:center">fight</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Fight a user</td>
+</tr>
+<tr>
+<td style="text-align:center">baguette</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Baguette!</td>
+</tr>
+<tr>
+<td style="text-align:center">clyde</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Clyde image generation</td>
+</tr>
+<tr>
+<td style="text-align:center">achievement</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Generate an achievement</td>
+</tr>
+<tr>
+<td style="text-align:center">dog</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get a random dog</td>
+</tr>
+<tr>
+<td style="text-align:center">blurpify</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Blurpify an image</td>
+</tr>
+<tr>
+<td style="text-align:center">rude</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Rude!</td>
+</tr>
+<tr>
+<td style="text-align:center">bodypillow</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Turn someone into  body pillow</td>
+</tr>
+<tr>
+<td style="text-align:center">threats</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Get threats OwO</td>
+</tr>
+<tr>
+<td style="text-align:center">blurplate</td>
+<td style="text-align:center">Fun</td>
+<td style="text-align:left">Blurpify + JPEGify a user</td>
+</tr>
+<tr>
+<td style="text-align:center">owo</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">OwO</td>
+</tr>
+<tr>
+<td style="text-align:center">deredere</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a deredere image</td>
+</tr>
+<tr>
+<td style="text-align:center">stare</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em>stares</em></td>
+</tr>
+<tr>
+<td style="text-align:center">blush</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em>blushes</em></td>
+</tr>
+<tr>
+<td style="text-align:center">punch</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Punch someone</td>
+</tr>
+<tr>
+<td style="text-align:center">cry</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Cry</td>
+</tr>
+<tr>
+<td style="text-align:center">sumfuk</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">sumfuk</td>
+</tr>
+<tr>
+<td style="text-align:center">discordmeme</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a discord meme</td>
+</tr>
+<tr>
+<td style="text-align:center">trap</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a trap meme</td>
+</tr>
+<tr>
+<td style="text-align:center">cuddle</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Cuddle someone</td>
+</tr>
+<tr>
+<td style="text-align:center">awoo</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em><strong>AWOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</strong></em></td>
+</tr>
+<tr>
+<td style="text-align:center">banghead</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">bang your head</td>
+</tr>
+<tr>
+<td style="text-align:center">dab</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">DAB DAB DAB on them haters</td>
+</tr>
+<tr>
+<td style="text-align:center">pout</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">pout</td>
+</tr>
+<tr>
+<td style="text-align:center">hug</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">hug someone</td>
+</tr>
+<tr>
+<td style="text-align:center">foxgirl</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">get a foxgirl</td>
+</tr>
+<tr>
+<td style="text-align:center">initiald</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get an initiald image</td>
+</tr>
+<tr>
+<td style="text-align:center">megumin</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">get a megumin image</td>
+</tr>
+<tr>
+<td style="text-align:center">kiss</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Kiss OwO</td>
+</tr>
+<tr>
+<td style="text-align:center">nom</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Nom nom nom</td>
+</tr>
+<tr>
+<td style="text-align:center">shrug</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">/shrug</td>
+</tr>
+<tr>
+<td style="text-align:center">thinking</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">thonk</td>
+</tr>
+<tr>
+<td style="text-align:center">lick</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Lick lick lick</td>
+</tr>
+<tr>
+<td style="text-align:center">pat</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Pat pat pat</td>
+</tr>
+<tr>
+<td style="text-align:center">confused</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">???</td>
+</tr>
+<tr>
+<td style="text-align:center">poke</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em>poke poke</em></td>
+</tr>
+<tr>
+<td style="text-align:center">wasted</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Wasted weeb meme</td>
+</tr>
+<tr>
+<td style="text-align:center">insult</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Insult someone</td>
+</tr>
+<tr>
+<td style="text-align:center">sleepy</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get some sleep!</td>
+</tr>
+<tr>
+<td style="text-align:center">greet</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Greet someone</td>
+</tr>
+<tr>
+<td style="text-align:center">jojo</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a jojo meme</td>
+</tr>
+<tr>
+<td style="text-align:center">dance</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Dance!</td>
+</tr>
+<tr>
+<td style="text-align:center">neko</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a neko or a lood neko in an nsfw channel owo</td>
+</tr>
+<tr>
+<td style="text-align:center">lewd</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">thats lewd! &gt;~&lt;</td>
+</tr>
+<tr>
+<td style="text-align:center">rem</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a rem image</td>
+</tr>
+<tr>
+<td style="text-align:center">why</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">WhyyyYYY!?</td>
+</tr>
+<tr>
+<td style="text-align:center">tickle</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em>tickles</em></td>
+</tr>
+<tr>
+<td style="text-align:center">poi</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a poi image</td>
+</tr>
+<tr>
+<td style="text-align:center">bang</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Bang bang</td>
+</tr>
+<tr>
+<td style="text-align:center">triggered</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Get a triggered meme</td>
+</tr>
+<tr>
+<td style="text-align:center">insultwaifu</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left">Insult someones waifu</td>
+</tr>
+<tr>
+<td style="text-align:center">slap</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em><strong>Slaps</strong></em></td>
+</tr>
+<tr>
+<td style="text-align:center">bite</td>
+<td style="text-align:center">Reactions</td>
+<td style="text-align:left"><em>bites</em></td>
+</tr>
+<tr>
+<td style="text-align:center">overwatch</td>
+<td style="text-align:center">Games</td>
+<td style="text-align:left">Get overwatch stats</td>
+</tr>
+<tr>
+<td style="text-align:center">pubg</td>
+<td style="text-align:center">Games</td>
+<td style="text-align:left">Get PUBG stats</td>
+</tr>
+<tr>
+<td style="text-align:center">osu</td>
+<td style="text-align:center">Games</td>
+<td style="text-align:left">Get OSU Stats</td>
+</tr>
+<tr>
+<td style="text-align:center">minecraft</td>
+<td style="text-align:center">Games</td>
+<td style="text-align:left">Get Minecraft Stats</td>
+</tr>
+<tr>
+<td style="text-align:center">pubg</td>
+<td style="text-align:center">Games</td>
+<td style="text-align:left">PUBG Stats OWOWOWOWOWO</td>
+</tr>
+<tr>
+<td style="text-align:center">marry</td>
+<td style="text-align:center">Marriage</td>
+<td style="text-align:left">Marry Someone OWO</td>
+</tr>
+<tr>
+<td style="text-align:center">divorce</td>
+<td style="text-align:center">Marriage</td>
+<td style="text-align:left">Divorce ;w;</td>
+</tr>
+</tbody>
+</table>
+<p><em>some may be out dated please use the bots help command</em>,
+And more!, type "b1nzy" here :^)</p>
+<p><strong>Ppl</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Ppl</th>
+<th style="text-align:center">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">ReKT#0001</td>
+<td style="text-align:center">rektware bestware</td>
+</tr>
+<tr>
+<td style="text-align:center">Kot#1337</td>
+<td style="text-align:center">contributor</td>
+</tr>
+<tr>
+<td style="text-align:center">ITheEqualizer#0001</td>
+<td style="text-align:center">I do frontend</td>
+</tr>
+<tr>
+<td style="text-align:center">void#0001</td>
+<td style="text-align:center">Free cert and NekoBoat/HentaiBoi helper :^)))</td>
+</tr>
+<tr>
+<td style="text-align:center">August 🌺#5820</td>
+<td style="text-align:center">Free cert 2 change nickname :^)</td>
+</tr>
+<tr>
+<td style="text-align:center">computerfreaker#4054</td>
+<td style="text-align:center">Tsundere language</td>
+</tr>
+<tr>
+<td style="text-align:center">York#0001's heccin api</td>
+<td style="text-align:center">Weeblang</td>
+</tr>
+</tbody>
+</table>
+<p><i>Page Design By: ITheEqualizer#0001</i></p>
+
+                            
+                  </div>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
