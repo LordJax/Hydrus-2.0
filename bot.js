@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
-const prefix = "h."
+const prefix = "h.";
 
 const client = new Discord.Client();
 const http = require('http');
@@ -26,7 +26,7 @@ fs.readdir("./commands/", (err, files) => {
 
 
 
-
+client.on('ready', (), message.author.send("Bot restarted");
 
 client.on('warn', console.warn);
 client.on('error', console.error);
@@ -42,7 +42,7 @@ client.on('message', async message => {
   if (message.content.startsWith(prefix) && message.channel.type !== "text")return mesage.reply("Please use my commands in a server");												 
   if(!message.content.startsWith(prefix))return; 
   let messageArray = message.content.split(" ");
-  let cmd = messageArray[0].toUpperCase();
+  let cmd = messageArray[0];
   let args = messageArray.slice(1);
   let commandfile = client.commands.get(cmd.slice(prefix.length));
   if(commandfile) commandfile.run(client,message,args); 
